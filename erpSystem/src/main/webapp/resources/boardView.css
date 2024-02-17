@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.board {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	width: 60%;
+}
+
+h1 {
+	text-align: center;
+	 color : #395144;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+thead {
+	background-color: rgb(240, 246, 244);
+	border-top: 1px solid #395144;
+	border-bottom: 1px solid #395144;
+}
+
+th.title {
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+}
+
+th.nav {
+	font-size: 16px;
+	padding: 10px;
+	text-align: right;
+}
+
+th.main {
+	font-size: 18px;
+	line-height: 1.5;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.click {
+	margin-top: 20px;
+	text-align: right;
+}
+
+.click form {
+	display: inline-block;
+}
+
+.click input[type="submit"], .click input[type="button"] {
+	background-color: rgb(240,246,244);
+	color: #395144;
+	border: none;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.click input[type="submit"]:hover, .click input[type="button"]:hover {
+	background-color: #395144;
+	color: rgb(240,246,244);;
+}
+.main {
+	height: 500px;
+}

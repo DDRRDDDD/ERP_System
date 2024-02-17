@@ -1,0 +1,82 @@
+.order {
+	width: 60%;
+	margin: auto;
+}
+
+.tbl {
+	margin: 20px;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td {
+	padding: 15px;
+	text-align: center;
+	
+}
+
+.orderhead {
+	border-top: 2px solid #395144;
+	background-color: rgb(240, 246, 244);
+}
+
+tr {
+	border-bottom: 1px solid #395144;
+}
+
+.titles {
+	margin: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.total {
+	margin: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.drop {
+	background-color: rgb(240, 246, 244);
+	color: #395144;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.drop:hover {
+	background-color: #395144;
+	color: rgb(240, 246, 244);
+}
+
+.tung {
+	text-align: center;
+}
+
+.total {
+	text-align: right;
+}
+
+.ord {
+	margin-top: 10px;
+	text-align: right;
+}
+
+.button {
+	background-color: #395144;
+	color: rgb(240, 246, 244);
+	border: none;
+	padding: 15px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	
+}
+
+.button:hover {
+	background-color: rgb(240, 246, 244);
+	color: #395144;
+}
+.but{
+	text-align : right;
+}

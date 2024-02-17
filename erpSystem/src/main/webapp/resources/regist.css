@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+.regist-box {
+	margin: 10px auto auto auto;
+	padding: 20px;
+	width: 60%;
+}
+
+#info-title {
+	padding-bottom : 30px;
+	text-align: center;
+	color: #9DC08B;
+}
+
+.table {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 10px;
+}
+
+.table #td {
+	padding: 20px 20px;
+}
+
+.table #th {
+	padding: 10px;
+	text-align: left;
+	background-color: #CCD6A6;
+	color: #fff;
+	border: 1px solid #CCD6A6;
+}
+
+.table #th #td {
+	padding: 10px;
+	border: 1px solid #CCD6A6;
+}
+
+.table input[type=text],.table input[type=date],.table input[type=password] {
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid #f39c12;
+	width: 100%;
+	color: #34495e;
+}
+
+.button {
+	margin-top : 10px;
+	text-align: center;
+}
+
+.button input[type=button] {
+	background-color: #7D8F69;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.button input[type=button]:hover {
+	background-color: #4E6C50;
+}
+
+input {
+	outline : none;
+}
+.address{
+	 display: flex;
+}
+.address input[type=text] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #f39c12;
+  width: 100%;
+  color: #34495e;
+}
+
+.address button[type=button] {
+  background-color: #7D8F69;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  }
+.address button[type=button]:hover {
+  background-color: #4E6C50;
+  }

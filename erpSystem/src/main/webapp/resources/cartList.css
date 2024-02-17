@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: black;
+}
+
+.title {
+	margin: 20px;
+	text-align: center;
+	font-size: 24px;
+}
+
+.cart-table {
+	table-layout: fixed;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cart-table-head {
+	border-top: 2px solid #395144;
+	background-color: rgb(240, 246, 244);
+}
+
+.cart-table tr {
+	border-bottom: 1px solid #395144;
+	text-align: center;
+	font-size: 1em;
+	border-top: 1px solid black;
+}
+
+.cart-table-body tr td {
+	height: 50px;
+}
+
+.cart-table tr td {
+	padding: 5px;
+	margin: 20px;
+}
+
+.purchase {
+	margin: 20px;
+	border-top: 1px solid #395144;
+	border-bottom: 1px solid #395144;
+	text-align: right;
+	padding: 20px 0;
+}
+
+.purchase p {
+	display: inline;
+	margin-right: 10px;
+}
+
+.tung {
+	text-align: center;
+}
+
+.purchase button {
+	background-color: rgb(240, 246, 244);
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+.purchase button:hover {
+	background-color: #395144;
+	color: rgb(240, 246, 244);
+}
+
+#cancel {
+	background-color: rgb(240, 246, 244);
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+#cancel:hover {
+	background-color: #395144;
+	color: rgb(240, 246, 244);
+}
