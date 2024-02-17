@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+#check-values:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#check-values {
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.board {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.board h1 {
+	text-align: center;
+	color: #395144;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.board table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.board td {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 20px;
+	text-align: center;
+}
+
+.board form table a {
+	background-color: rgb(240, 246, 244);
+	color: black;
+	border: none;
+	padding: 10px 20px;
+	margin-right: 10px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+thead {
+	background-color: rgb(240, 246, 244);
+	border-top: solid 2px #395144;
+}
+
+.number {
+	margin: auto;
+}
